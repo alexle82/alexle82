@@ -1,0 +1,224 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Online Services - The University of Sheffield</title>
+    <meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="stylesheet" href="/cas/webjars/font-awesome/5.6.1/css/all.min.css"/><link rel="stylesheet" href="/cas/css/cas.css?v=20191008"/><link rel="icon" href="/cas/favicon.ico" type="image/x-icon"/><script type="text/javascript" src="/cas/webjars/jquery/3.6.0/jquery.min.js"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/></head>
+
+<body class="login">
+<header role="banner">
+    <div class="headcontainer">
+      <div class="logo"><img src="/cas/images/logo.svg" class="respImg"></div>
+      <div class="page-title">
+      Online services
+      </div>
+  </div>
+  </header><div style="display:block;background:#ade1f8"><div class="headcontainer" style="color:black;font-weight:bold;padding:10px"><span>Multi-factor authentication (MFA) is now required for all IT accounts - <a href="https://www.sheffield.ac.uk/it-services/mfa" style="color:#014980;font-weight:bold;text-decoration:underline;">get more information and support.</a></span></div></div>
+
+<main role="main" class="container mt-3 mb-3">
+    <div id="content" class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Login</h2>
+                    <!-- span class="fa-stack fa-2x hidden-xs">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span --></div>
+                <div class="card-body">
+                    <form method="post" id="fm1" action="login">
+                        <!-- 
+                        <h3 th:utext="#{screen.welcome.instructions}">Enter your Username and Password</h3>
+						--><section class="form-group">
+                            </section>
+
+                        <section class="form-group">
+                            <label for="username"><span class="accesskey">U</span>sername:</label>
+
+                            <div>
+                                <input class="form-control required"
+                                       id="username"
+                                       size="25"
+                                       tabindex="1"
+                                       type="text"
+                                       accesskey="u"
+                                       autocomplete="off" name="username" value=""/></div>
+                        </section>
+
+                        <section class="form-group">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+
+                            <div>
+                                <input class="form-control required"
+                                       type="password"
+                                       id="password"
+                                       size="25"
+                                       tabindex="2"
+                                       accesskey="p"
+                                       autocomplete="off" name="password" value=""/><span id="capslock-on" style="display:none;">
+                                <p>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <span>CAPSLOCK key is turned on!</span>
+                                </p>
+                            </span>
+                            </div>
+                        </section>
+
+                        <input type="hidden" name="execution" value="66a05fb6-cd36-4f7d-9f9a-7e0a257e3008_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LndXTFk0K3ZrYi92R1ZlZFVJMVFwb3JUbTdUZGJKS2d4RkNxbmpOam9xVVN0WHZRTlA3OEo4bUdqWERtRVFYd3N2MERsbDZ5bDRWNGUrMzlYKzBwMCt0YnE1NnhySVVtTTBad09VanF0S1h2VE5iakIwTndpZmpLRVl1U1RrUGxqSzkxMVI3T3Q5YlZsTVRwVDlRdGZyUmlnWmtqR2VHdEVaVTRUNDgrNkdwSTRtSVdxenJWdDlpWnVZSUtJaStaWURFNFltZ3FSbU02VmpHZ3U3SFl1N3V6aTdXaXVOenIyWWxjREtFdUlMOXJDallKUlV1d25Qek55L09WZGpQU1dkV3cxcVVRWk1MaGUrSlJuSkpMdVlQZWdCOFNreUk0d0Fjc1dEZUxjUDFrNU11Ym9MVEhLTFF1QzJiV1NndkIwU2M3Wk9oTmdGd3VHKzBocmFYMDlweXdIRFJJd1RORnZka1VwQ2gzbkRTb1c3cVY5YmN0SW1LaWUzb3ZudW01empONFFrTWo5ZE5SZUlObHNXcWpTcG9uSFpJSURod2RSZDdhZzJnTUJobUh3c2gwd2NWNzliZ2ZxRUJ5dy9RRkUwN2NYR2tLeVUzN2EvMFV0TU5QZEVpenNmczcyalJFRkZwYXFudTFCRllPbzVLamwydGIxeHNRMHk3eGphaXlHd3FpVHRybGNIWnZUT0dYOVAxQmtuSUJibnFyL1puZk9CQk9MNHhnYzVUdk45MHR6a09PenBBQ3FtUUNISjFTV3czdUJRbkd3NVdyaE9yYll2L0UzR2F4TmE3cVFuVEZTVG9CUDQyMUFyT1RRc2Nvd1VPUkt3RUpQV0tSVWg5WFkrbGc1c1RzOTVjN0tQZjQzcFQwaE92OFNvMzhsbFJhcFVEdFhxV2JzaTI2N1ZzYXF0WGlYN3ZKUTgveGQ4WG44T2E5V2hjWFByOTBvbnBjaCtERzl0M2ZEK3l3aVd3SVVMYk9sdG5xaHVRN2ZvWllZdm02d201OGVOd0RDYVAwczVsNDUvb0tRNllwSjFyYXgwNWpTVHhCYmN5NWNwdUF5Qzc2KzgyZjV6bVdFaDAvZElHVlF1SE50amsyLzA4NzY0YzhERnV6QXF0VW1ZUHhIS1JkMXB6QVdtS0lOaTFqS3ZzZ2hXUzVNRHU4L0x1Wlh4aEpQblNVTDRlSnJ3d1RQZjlRQnI5VXVDbG0rN0JrZ0xKanFjQkI1UWZ1SnNXOWx4WUE1MFRFdXBkcUpaRCtxZTNNMnp6ZVBERkRrdG1aVGZPQlJMNHhKMi9YanJ2L042MTRHVmY3V0ZMYjVsNlM0L1F4cUpXUVk1TFhFTGMzdjNNbmtUZ0NuMm5ub3Z1SHNlT1N2ZmRBdVZXV0tVSGxOeG5yZ1lxRk1EVWdPRGg2U281OVBOdmJWTVBkSHJ6UFZrWCs0bVhrR3FsVEJMV0xDSjRvY0Y2VlVEaTRUTnhQdEJhVCtnakcwUlF4MENwSFpYVHRQbkl6bHNCV2NxRVJmb3NxdVRNdHFrV0xMamtucmtRd0dsclZ6QmtDWUtRbC9lWmZ6dWlsVlVHVWZWcVcxVVd0anRYTmpaeXVKR09lY2d0NWZUUjNjOXUrK2Zjc2NBK0RnRlFSV1N3cHlZYU9OYWRKeFVhbis2QUtTc1V6RUllc1NHMFZKMGNDNWMxMkN3aDBZZmJQM3RoU3FwbCtEbng0dHEwNkZPaXhPdjdDN2xrNzBUYnlIV3llU2VCazRXb05MM1IwVzJEemZQeGdDb3RVaVMwMFBsemJUUk9qNkQrSVRWd3c3RWtWbmpuQy9wTjg5VXFiYnk4TUVNRldDeFozMDdqb3AzQ0xkZXRRZDUrYndUY0RDT2lSU1FMREM3SlpXOHdud1MwN1BQZTBKa3VVcHhjek5xWEw3cWMxSUpmUFBUVU82VUthM0RDOGxMc1lVVXFVVGxkWnh4cEdsZDhGNTkvUWd4KzZ3cElnbmVnd1hCd21KM0hQSURXQ2RJNnhKeldHbWdKeWd4NzBnK3dIYkVMR0R5UXhuMCtrSnJXYVZnZVFBZit2eHJEUzhKWG5MeDY0czRCTE9mb0xPR3pKN2NkaXFMaU9DVmZmWWlhdDdmbWxmcnJqV29BQXZkNHExT3hkYXZIaUpzdGVvZENtNng4UjhOVER2MU53WDc0ZDlvVFRDQ0xyb3dybHNteUFpcGNFTzI3RzJXVXBIRVZWRmRjMm82TnFSdXE0SFJtZ2xZelFsWmZQMGdLRjA1ZkhtNlBHeGxaSVZPYjNvSkVMSVMraWFudU5VNVIvOWFmQjJqN1poNlBtWE4wNHMydjB2OFRZSkVJK1VDcnN2N2JGbHV4U2dKYUxNWmNYS1NyUGxPU24xT3FVRmIzT2xYcUJqRHorREtadUlHYkpyY2FUdnJJdll3eWg1ZllDR0QrU2ZZTDR4dS9LRmpiczlBclZFaWltelBLR2E3WnhEc1NpcTZqRTdQZUVlcTRaVFBNQ043RXphT3Q5ZHZkeDNVeVVnOE5ubC84d0FwQmxFYlo2dks1SFFUc3lZdGtTUk4vN3FweVVIenplLytUVWYwR2JGRC9XRWNaOGtIUFZuQjQ1QWNqeVdaakkxbUF6clJhVXljSHZQYjhlUHhJQS9zbDdmVzd3MkxlNldMSGtybUxXeCtyb2Y0ZkRLZlJ4KzN0blZVRi85RWU1a3l5eW9JcERyV1BVUjZZWWkwTmNTWHZrZndFWU1YTGFoWlBEWHdKTzJTT0pEbGJMbnQ4Q2E2cVUyZ0hjU0ZvYUdleVdTV3Y2a3A2YlJtdkQ4cEh6S3QyUlZ1SUQxMGVTc29LS1JEVXE2RjlrQVBGN3pPK2VlTDFuWGdGeFBIT2RkcXp1S1QzY2hkSUVCWUozbThSVVZ5UHFvQis4Q2wzNXp2aS9EVklUYUxXajNPREE2cS82OURvaEF0RTVuSjZnWDMvMWc1T0x3SmRDLzh1K1U1UzU0MC92L096NUZsNzhoWnBTaTI0VGFKYmVVVUZpTVYvb2V6dzhUTThLWUpRSnZ0K2h5VHpzbEF1TUNyQnZtaVBacmVscG12dEFIK1Yyd1RWSkJQekFHOHJmd0Q2Q1NWT0FjYmVVb1gvR2dZOHhyV3IzVlJVNFNJeGNERzFGVm5Ra1JHUGZQczFGL1RkeVpGRXJ5VGtkbEhqUElEd250ZEoxVWoycU1lRERVZkxxbG9mMjRwRFNRN2F4L1ZreFBvRE9McDk2aDhnVWo4L3BXVjY1cEt5STRxdnh0UUZuUFJrb3lUNUV2bHlyRTFpKytBZ1pSQnlzVFRJQWE5NEdTdkJ4dUFZSzlOMzN2Nlcvc2VvWlc2N3VTL1ZtMEErVGE3Rno5UXdRUy81bTRGUVl6eDBVaUxOWkV3OHZIWno3c2dmTkVxSlRQamVUN1pnTFpOek1qMVVFakhyMlFsQzl0QkZPN3RLNHM5d2g3R1RyM0FIU3Q2NHlLbXN6emJzb29VaVlocHJvb2dBaWpWcmd4Zk91TkJVdnhHQ0dLUUliNGdtTXNydUoyUUV6REpQRENmaENPRnhCMGlSVDhRMGVlOTV2ay9Sb2VjeVFOaUJvQmV2MXFqZm1xWGE4WUlXUzVMOFVEaG1xS1d4N2t5UzZSYUNHR0dldHlCWHM1QlFMR21jUnFpZUFBRmlMQWkrZktzZk1DZ1ZHODI3bW5rbnlaNEtlaEU5V1BiMHdLZWhIazBCeWFtdXJoTTYvQWpYMUNVdTY2cDZob3l0c256WWpyREJIZmgxMjF5YkdkNnBKeDJPb3ZEazI3TVlldU5HTXRqTW9oak9DL3dHUnIrVHI3akpMWnFiZzRTSEZSdjhDSEhWTUN4U256RVZxNHhXUC81Y1lZaHdCRldQN05EWloyaXNEV0dDV0pxUUdqZ3RJREJBN0RoZ0xqL0F0R0tScHU2eUo1NXgwVnZ2ZDVYdVRRZnFVWU13UUZpKzVhcXVRQUNUQStVMGZIS2pIaW9OWlIwajJ1VmJMNThqWlFvMnZYQW8waTJnZUY2NGxEaVZkb3JvdjZQem90aEhCUjhPSEx2eXREa1lRYm1sWTlwMmRXWVZocklkWW96THlRT1I1V1M3YzRtSUZTMXc9PS5ScFFPWTlzYjVJUGhXRWxscnVEQWFLU3BQWkZJakRFM1poT3c5eXpfbVhEVTNELWtMU1RkR2VvczlrcC1UVEZDRjU3WlBCYkdfd0lmS2F2T3p1NTRSZw=="/><input type="hidden" name="_eventId" value="submit"/><input type="hidden" name="geolocation"/><input class="btn btn-block btn-submit button button--primary"
+                               name="submit"
+                               accesskey="l"
+                               tabindex="6"
+                               type="submit"
+                               value="Log in"
+                        /></form>
+
+                    <!-- div th:unless="${passwordManagementEnabled}">
+                        <br/>
+                        <span class="fa fa-question-circle"></span>
+                        <span th:utext="#{screen.pm.button.forgotpwd}">Forgot your password?</span>
+                        <p/>
+                    </div --><script type="text/javascript">
+                        /*<![CDATA[*/
+                        var i = "One moment please..."
+                            /*]]>*/
+                            $(document).ready(function () {
+                                $("#fm1").submit(function () {
+                                    $(":submit").attr("disabled", true);
+                                    $(":submit").attr("value", i);
+                                    return true;
+                                });
+                            });
+                    </script>
+
+                    <div id="sidebar">
+        <div class="sidebar-content">
+            <p>For security reasons, please <a href="logout">log out</a> and exit your web browser when you have finished accessing services that require authentication.</p>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notices" class="col-md mt-3 mt-md-0">
+            <div id="cookiesDisabled" class="card" style="display: none;">
+    <div class="card-body">
+        <h5 class="card-title">Browser cookies disabled</h5>
+        <p class="card-text">Your browser does not accept cookies. Single Sign On WILL NOT WORK.</p>
+    </div>
+</div>
+            <div id="serviceui" class="alert alert-info">
+    <div>
+        <table>
+            <tr>
+                <td id="servicedesc">
+                    <h5>students_sheffield</h5>
+                    <p>student intranet</p>
+                </td>
+                <td>
+                    <img src="images/webapp.png"/></td>
+            </tr>
+        </table>
+    </div>
+</div>
+            <div id="cas-resource-list" class="card d-sm-none d-md-block">
+        <div class="card-body">
+            <h3 class="card-title">Problems logging in?</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="https://www.sheffield.ac.uk/account-management/">Students</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.sheffield.ac.uk/it-services/account/password-recovery">Staff</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.sheffield.ac.uk/account-management/applicant/activate">Applicants</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+        <div id="providers" class="col-md mt-3 mt-md-0">
+            <script>
+            var redirectTo = $( "a[autoRedirect=true]" ).attr("href");
+            if (redirectTo != null && redirectTo != undefined) {
+                window.location.href = redirectTo;
+            }
+        </script>
+    </div>
+    </div>
+</main>
+
+<footer class="footer" role="contentinfo">		
+        <div class="container">
+            <span id="copyright">Copyright &copy; 2022 The University of Sheffield</span>
+            <!-- span>Powered by <a href="http://www.apereo.org/cas">
+                Apereo Central Authentication Service
+                <span th:text="${T(org.apereo.cas.util.CasVersion).getVersion()}"></span>
+                <span th:text="${T(org.apereo.cas.util.CasVersion).getDateTime()}"></span> </a>
+            </span --></div>
+    </footer>
+
+<script type="text/javascript" src="/cas/webjars/zxcvbn/4.3.0/zxcvbn.js"></script>
+<script type="text/javascript" src="/cas/webjars/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/cas/webjars/jquery-cookie/1.4.1-1/jquery.cookie.js"></script>
+<script src="/cas/webjars/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<script src="/cas/webjars/headjs/1.0.3/head.min.js"></script>
+<script type="text/javascript" src="/cas/js/cas.js"></script>
+
+<script>
+    head.ready(document, function () {
+        if (!window.jQuery) {
+            var jqueryUrl = "\/cas\/webjars\/jquery\/3.6.0\/jquery.min.js";
+            head.load(jqueryUrl, loadjQueryUI);
+        } else {
+            notifyResourcesAreLoaded(resourceLoadedSuccessfully);
+        }
+    });
+
+    function loadjQueryUI() {
+        var jqueryUrl = "\/cas\/webjars\/jquery-ui\/1.12.1\/jquery-ui.min.js";
+        head.load(jqueryUrl, loadjQueryCookies);
+    }
+
+    function loadjQueryCookies() {
+        var jqueryUrl = "\/cas\/webjars\/jquery-cookie\/1.4.1-1\/jquery.cookie.js";
+        head.load(jqueryUrl, notifyResourcesAreLoaded(resourceLoadedSuccessfully));
+    }
+
+    function notifyResourcesAreLoaded(callback) {
+        if (typeof callback === "function") {
+            callback();
+        }
+    }
+</script>
+
+<script>
+    /*<![CDATA[*/
+
+    var trackGeoLocation = false
+    "true";
+
+    var googleAnalyticsTrackingId = null;
+
+    if (googleAnalyticsTrackingId != null && googleAnalyticsTrackingId != '') {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', googleAnalyticsTrackingId, 'auto');
+        ga('send', 'pageview');
+    }
+
+    /*]]>*/
+</script>
+
+</body>
+</html>

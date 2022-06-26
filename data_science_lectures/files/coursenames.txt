@@ -1,0 +1,44 @@
+COMP111 - Introduction to Video Games
+COMP115 - Introduction to Computer Programming
+COMP125 - Fundamentals of Computer Science
+COMP188 - Enrichment Topics in Computing
+COMP202 - Systems Programming
+COMP225 - Algorithms and Data Structures
+COMP229 - Object Oriented Programming Practices
+COMP247 - Data Communications
+COMP249 - Web Technology
+COMP255 - Software Engineering
+COMP257 - Data Science
+COMP260 - Game Design
+COMP329 - Artificial Intelligence
+COMP330 - Computer Graphics
+COMP332 - Programming Languages
+COMP333 - Algorithm Theory and Design
+COMP335 - Distributed Systems
+COMP336 - Big Data
+COMP343 - Cryptography and Information Security
+COMP344 - E Commerce Technology
+COMP347 - Computer Networks
+COMP348 - Document Processing and the Semantic Web
+COMP350 - Special Topics in Computing and Information Systems
+COMP352 - Videogames Project
+COMP353 - Research Topic in Computing and Information Systems
+COMP355 - Information Technology Project
+COMP356 - Web Design and Development Project
+COMP365 - Systems Engineering Project
+COMP388 - Advanced Topics in Computing and Information Systems
+COMP410 - Software Engineering Research Thesis A
+COMP420 - Software Engineering Research Thesis B
+COMP430 - Software Engineering Practices
+COMP434 - Advanced Software Engineering
+ISYS100 - IT & Society
+ISYS104 - Introduction to Business Information Systems
+ISYS114 - Introduction to Database Design and Management
+ISYS200 - IT and the Future of Society
+ISYS224 - Database Systems
+ISYS254 - Applications Modelling and Development
+ISYS301 - Enterprise Systems Integration
+ISYS302 - Management of IT Systems and Projects
+ISYS355 - Information Systems Project
+ISYS358 - Computing Industry Project
+ISYS360 - Technology Management
